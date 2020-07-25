@@ -51,4 +51,6 @@ elif [[ "$1" == "stack" && "$2" == "test-config" ]]; then
     configure_tempest_lustre
 elif [[ "$1" == "unstack" ]]; then
     true
+elif [[ "$1" == "clean" ]]; then
+    true
 fi
